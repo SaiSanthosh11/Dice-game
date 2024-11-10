@@ -10,11 +10,11 @@ let randomLoc2="images/"+randomImage2;
 let image2=document.querySelectorAll("img")[1].setAttribute("src",randomLoc2);
 
 if(RandomNumber1>randomNumber2){
-    document.querySelector("h1").innerHTML="Kamesh Abhi🪓 is winner";
+    document.querySelector("h1").innerHTML="Player1 is winner";
 }
 else if(RandomNumber1<randomNumber2){
-    document.querySelector("h1").innerHTML="Vijay Goud🪓 is Winner";  
+    document.querySelector("h1").innerHTML="Player1 is Winner";  
 }
 else if(RandomNumber1==randomNumber2){
-    document.querySelector("h1").innerHTML="Arey Bugga";  
+    document.querySelector("h1").innerHTML="Try again";  
 }
