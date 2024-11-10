@@ -1,1 +1,1 @@
-# Nowgg
+# Dice game
